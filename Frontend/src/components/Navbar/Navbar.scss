@@ -17,8 +17,8 @@
   align-items: center;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -78,12 +78,12 @@
 }
 
 .app__navbar-menu {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: relative;
   right: 32px;
-  top: 43px;
+  top: 20px;
 
   display: flex;
   justify-content: center;

@@ -179,16 +179,21 @@
       flex-direction: row;
       flex-wrap: wrap;
       margin-left: 0;
+
+      div:nth-child(3) {
+        position: relative;
+        left: 2vh;
+      }
   
       div:nth-child(2) {
         position: relative;
-        left: -1vh;
         margin: 1rem;
+        left: 1vh;
       }
       div:nth-child(1){
         position: relative;
         top: -5vh;
-        left: -5vh;
+        left: -1vh;
       }
     }
   }
@@ -224,6 +229,6 @@
       margin: 2rem 0;
       position: relative;
       top: -3vh;
-
+      right: 35px;
     }
   }
